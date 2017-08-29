@@ -1,0 +1,15 @@
+
+State Machine - |sim_avr_109|USART_transm:USART_transmision|control_path_us:unidad_de_control|CS
+Name CS.bit_stop CS.paridad CS.date8 CS.date7 CS.date6 CS.date5 CS.date4 CS.date3 CS.date2 CS.date1 CS.bit_start CS.idle 
+CS.idle 0 0 0 0 0 0 0 0 0 0 0 0 
+CS.bit_start 0 0 0 0 0 0 0 0 0 0 1 1 
+CS.date1 0 0 0 0 0 0 0 0 0 1 0 1 
+CS.date2 0 0 0 0 0 0 0 0 1 0 0 1 
+CS.date3 0 0 0 0 0 0 0 1 0 0 0 1 
+CS.date4 0 0 0 0 0 0 1 0 0 0 0 1 
+CS.date5 0 0 0 0 0 1 0 0 0 0 0 1 
+CS.date6 0 0 0 0 1 0 0 0 0 0 0 1 
+CS.date7 0 0 0 1 0 0 0 0 0 0 0 1 
+CS.date8 0 0 1 0 0 0 0 0 0 0 0 1 
+CS.paridad 0 1 0 0 0 0 0 0 0 0 0 1 
+CS.bit_stop 1 0 0 0 0 0 0 0 0 0 0 1 
